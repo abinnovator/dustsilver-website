@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { Link } from "react-router-dom";
 import Download from "./pages/Download";
 import Locations from "./pages/Locations";
+import Navbar from '../components/Navbar'
 
 function HomePage() {
   return (
@@ -16,16 +16,7 @@ function HomePage() {
         {/* Everything inside must be z-10 to sit on top of the background */}
         <div className='relative z-10 w-screen font-montserrat text-white'>
           <div className="py-7 px-24">
-            <nav className="bg-[#D9D9D9]/5 backdrop-blur-xs flex flex-row justify-between pr-4 pl-6 py-2 rounded-2xl items-center border border-white/10">
-              <h1 className="text-2xl font-extrabold text-white">Dustsilver</h1>
-              <div className="flex flex-row gap-5 items-center">
-                <Link to="/locations" className="text-2xl font-extrabold cursor-pointer hover:text-silver-100 transition">Locations</Link>
-
-                <Link to="/download" className="text-2xl font-extrabold cursor-pointer hover:text-silver-100 transition">Download</Link>
-                <a href="https://github.com/abinnovator/Pokemon-Dust-Silver" target="_blank"><img src="/github-brands-solid-full (2).svg" width={44.91} height={44.91} alt="GitHub" /></a>
-                <a href="https://ko-fi.com/abinnovator" target="_blank"><img src="kofi.png" className="max-w-[125px] max-h-[66px]" alt="Ko-fi" /></a>
-              </div>
-            </nav>
+            <Navbar />
           </div>
         </div>
 
