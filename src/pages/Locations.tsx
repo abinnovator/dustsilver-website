@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 import { FlippingCard } from "../../components/ui/flipping-card";
 import Navbar from "../../components/Navbar";
