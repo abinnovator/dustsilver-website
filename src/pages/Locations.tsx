@@ -145,6 +145,19 @@ const cardsData: CardData[] = [
       buttonText: "Explore",
     },
   },
+  {
+    id: "lavender-town",
+    front: {
+      imageSrc: "https://archives.bulbagarden.net/media/upload/thumb/8/8e/Lavender_Town_HGSS.png/200px-Lavender_Town_HGSS.png",
+      imageAlt: "Lavender Town",
+      title: "Lavender Town",
+      description: "A small, eerie town in eastern Kanto, home to Pokémon Tower — a sacred resting place for departed Pokémon.",
+    },
+    back: {
+      description: "Lavender Town (シオンタウン, Shion Town) is a quiet, haunting town in eastern Kanto. It is home to Pokémon Tower, a graveyard where deceased Pokémon are laid to rest. The town is also infamous for its unsettling music and ghostly atmosphere.",
+      buttonText: "Explore",
+    },
+},
 ]
 export function FlippingCardDemo() {
   return (

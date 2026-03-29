@@ -21,9 +21,9 @@ function Download() {
 
         <div className="relative z-10 flex flex-col gap-7 text-white pt-28 px-24 justify-center items-center">
           <h1 className="text-6xl font-extrabold max-w-4xl text-center">
-            Download Alpha v6 for windows
+            Download Alpha v7 for windows
           </h1>
-          <a href="/Alphav6.zip" download={true}><Button className="cursor-pointer p-0 bg-white text-black"><span className="text-[20px] py-24 px-9">Download Latest</span></Button></a>
+          <a href="/AlphaV7.zip" download={true}><Button className="cursor-pointer p-0 bg-white text-black"><span className="text-[20px] py-24 px-9">Download Latest</span></Button></a>
         </div>
       </main>
 
