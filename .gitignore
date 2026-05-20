@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Large files - serve these externally or via Git LFS
+public/*.zip
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
