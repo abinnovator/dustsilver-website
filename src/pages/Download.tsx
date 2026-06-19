@@ -21,9 +21,9 @@ function Download() {
 
         <div className="relative z-10 flex flex-col gap-7 text-white pt-28 px-24 justify-center items-center">
           <h1 className="text-6xl font-extrabold max-w-4xl text-center">
-            Download Alpha v9 for windows!
+            Download Alpha v10 for windows!
           </h1>
-          <a href="https://github.com/abinnovator/Pokemon-Dust-Silver/releases/tag/Alphav9"><Button className="cursor-pointer p-0 bg-white text-black"><span className="text-[20px] py-24 px-9">Download Latest</span></Button></a>
+          <a href="https://github.com/abinnovator/Pokemon-Dust-Silver/releases/tag/alphav10"><Button className="cursor-pointer p-0 bg-white text-black"><span className="text-[20px] py-24 px-9">Download Latest</span></Button></a>
           <p>fixed the map, made the bike speed boost work! no sprite yet tho:( </p>
         </div>
       </main>

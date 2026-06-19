@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-     <nav className="bg-[#D9D9D9]/5 backdrop-blur-xs flex flex-row justify-between pr-4 pl-6 py-2 rounded-2xl items-center border border-white/10">
+     <nav className="flex flex-row justify-between pr-4 pl-6 py-2 rounded-2xl items-center">
                   <div className="flex flex-row gap-2.5">
                     <img src="/Logo.png" />
                     <Link to="/" className="text-2xl font-extrabold text-white hover:text-gray-300 transition">Dustsilver</Link> 
