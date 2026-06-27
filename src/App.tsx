@@ -1,8 +1,10 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Download from "./pages/Download";
 import Locations from "./pages/Locations";
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import UpcomingUpdates from "./components/UpcomingUpdates";
 import { Button } from "../components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 
@@ -37,7 +39,7 @@ function HomePage() {
             Your open-source all region pokemon game!
           </h1>
           <p className="max-w-2xl text-[20px] text-center">Play Kanto (Japan), Unova (NYC), Kalos (France), Galar (UK), and Paldea (Spain) all in the same 2d game!</p>
-          <Button className="bg-white max-w-[200px] text-black py-6 px-8">Download Latest</Button>
+          <a href="/download"><Button className="bg-white max-w-[200px] text-black py-6 px-8">Download Latest</Button></a>
         </div>
       </main>
       <div className="pt-9 px-24 text-white">
@@ -73,6 +75,8 @@ function HomePage() {
 
         </div>
       </div>
+      {/* Upcoming Updates Section */}
+      <UpcomingUpdates />
     </div>
   );
 }
@@ -83,7 +87,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/download" element={<Download />} />
-        <Route path="/locations" element={< Locations/>} />
+        <Route path="/locations" element={<Locations/>} />
+        {/* Pricing route removed */}
       </Routes>
     </Router>
   );

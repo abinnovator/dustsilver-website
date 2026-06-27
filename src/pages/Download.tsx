@@ -9,7 +9,7 @@ function Download() {
       {/* Container with relative positioning to hold the background overlay */}
       <main className="relative h-screen w-screen overflow-hidden bg-cover bg-center 
                        before:content-[''] before:absolute before:inset-0 
-                       before:bg-[url(/image.png)] before:bg-cover before:bg-center 
+                       before:bg-[url(/hero_new.png)] before:bg-cover before:bg-center 
                        before:opacity-20 before:z-0">
         
         {/* Everything inside must be z-10 to sit on top of the background */}
@@ -27,8 +27,6 @@ function Download() {
           <p>fixed the map, made the bike speed boost work! no sprite yet tho:( </p>
         </div>
       </main>
-
-      
     </div>
   );
 }

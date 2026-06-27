@@ -25,3 +25,5 @@ public/*.zip
 *.njsproj
 *.sln
 *.sw?
+
+.surfer
