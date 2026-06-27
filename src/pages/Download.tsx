@@ -25,6 +25,8 @@ function Download() {
           </h1>
           <a href="https://github.com/abinnovator/Pokemon-Dust-Silver/releases/tag/alphav10"><Button className="cursor-pointer p-0 bg-white text-black"><span className="text-[20px] py-24 px-9">Download Latest</span></Button></a>
           <p>fixed the map, made the bike speed boost work! no sprite yet tho:( </p>
+          {/* Caption element */}
+          <p className="text-center mt-4 text-sm text-gray-500">Bike mode works completely now!</p>
         </div>
       </main>
     </div>
